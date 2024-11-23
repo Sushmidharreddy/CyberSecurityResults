@@ -1,0 +1,23 @@
+.bg-details{
+  background-color: whitesmoke;
+}
+/* Make the entire layout a flex container */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Container for the entire layout */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* This will take up the remaining space in the middle */
+.main-content {
+  flex: 1;
+}

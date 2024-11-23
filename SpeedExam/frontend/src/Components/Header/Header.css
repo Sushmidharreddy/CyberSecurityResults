@@ -1,0 +1,40 @@
+.header-container {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; /* Align the logo on the left and the link on the right */
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+    z-index: 1000;
+  }
+  
+  .header-logo {
+    display: block;
+    max-width: 234px; /* Set the max width to match your logo's dimension */
+    height: auto;
+    margin-right: 700px;
+  }
+  
+  .header-link {
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    border-color: #0056b3;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 8px 12px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .header-link:hover {
+    background-color: rgb(159, 48, 48);
+    color: white;
+    border-color: rgb(159, 48, 48);
+  }
+  
